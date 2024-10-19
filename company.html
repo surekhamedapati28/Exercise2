@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./company.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    
+    
+</head>
+<body>
+    <div class="top-bar">
+        <div>Company name</div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+        </div>
+        <div>
+            <button class="sign">Sign out</button>
+        </div>
+    </div>
+    <div class="content-wrapper">
+        <div class="sidebar">
+            <ul>
+                <li><i class="fas fa-tachometer-alt"></i> Dashboard</li>
+                <li><i class="fas fa-shopping-cart"></i> Orders</li>
+                <li><i class="fas fa-box"></i> Products</li>
+                <li><i class="fas fa-users"></i> Customers</li>
+                <li><i class="fas fa-chart-bar"></i> Reports</li>
+                <li><i class="fas fa-plug"></i> Integrations</li>
+            </ul>
+            <h3 class="reports">SAVED REPORTS</h3>
+            <ul>
+                <li><i class="far fa-file-alt"></i> Current month</li>
+                <li><i class="far fa-file-alt"></i> Last quarter</li>
+                <li><i class="far fa-file-alt"></i> Social engagement</li>
+                <li><i class="far fa-file-alt"></i> Year-end sale</li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <div class="header">
+                <h1>Dashboard</h1>
+                <div>
+                    <button>Share</button>
+                    <button>Export</button>
+                    <select>
+                        <option>This week</option>
+                    </select>
+                </div>
+            </div>
+            <canvas id="myChart"></canvas>
+            <h2>Section title</h2>
+            <table>
+                <tr>
+                    <th>#</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                </tr>
+                <tr>
+                    <td>1,001</td>
+                    <td>random</td>
+                    <td>data</td>
+                    <td>placeholder</td>
+                    <td>text</td>
+                </tr>
+                <tr>
+                    <td>1,002</td>
+                    <td>placeholder</td>
+                    <td>irrelevant</td>
+                    <td>visual</td>
+                    <td>layout</td>
+                </tr>
+                <tr>
+                    <td>1,003</td>
+                    <td>data</td>
+                    <td>rich</td>
+                    <td>dashboard</td>
+                    <td>tabular</td>
+                </tr>
+                <tr>
+                    <td>1,003</td>
+                    <td>information</td>
+                    <td>placeholder</td>
+                    <td>illustrative</td>
+                    <td>data</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="./company.js"></script>
+</body>
+</html>
